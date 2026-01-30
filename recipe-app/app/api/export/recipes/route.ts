@@ -34,15 +34,7 @@ export async function GET() {
     sections: [
       {
         children: [
-          new Paragraph({
-            text: "My Cookbook",
-            heading: HeadingLevel.TITLE,
-            spacing: { after: 400 },
-          }),
-          new Paragraph({
-            text: `Created by ${user.email}`,
-            spacing: { after: 800 },
-          }),
+          
           new Paragraph({
             text: "Table of Contents",
             heading: HeadingLevel.HEADING_1,
@@ -70,7 +62,6 @@ export async function GET() {
 
             new Paragraph({
               text: "Ingredients",
-              heading: HeadingLevel.HEADING_3,
               spacing: { after: 200 },
             }),
 
@@ -88,7 +79,6 @@ export async function GET() {
 
             new Paragraph({
               text: "Method",
-              heading: HeadingLevel.HEADING_4,
               spacing: { after: 200 },
             }),
 
