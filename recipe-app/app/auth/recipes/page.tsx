@@ -31,15 +31,8 @@ export default async function RecipesPage() {
           Add Recipe
         </Link>
       </div>
-<Link
-  href="/api/export/recipes"
-  className="bg-green-600 text-white px-4 py-2 rounded"
->
-  Export Recipes
-</Link>
-
       <Link
-        href="/auth/recipes/export"
+        href="/api/export/recipes"
         className="bg-green-600 text-white px-4 py-2 rounded"
       >
         Export Recipes
